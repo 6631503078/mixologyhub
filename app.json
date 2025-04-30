@@ -1,28 +1,36 @@
 {
   "expo": {
-    "name": "mixologyhub",
+    "name": "MixologyHub",
     "slug": "mixologyhub",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "assets/mixology-icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "assets/mixology-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFF8F0"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "assets/mixology-icon.png",
+        "backgroundColor": "#FFF8F0"
+      },
+      "package": "com.mixologyhub"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "assets/mixology-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3979c175-80fe-4a67-bd07-94fc2ef0c6bc"
+      }
     }
   }
 }
